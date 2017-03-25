@@ -4,7 +4,7 @@ angular.module('hzerm')
 
     .controller('HzermAppCtrl', ['$scope',
         function($scope, gridService) {
+            $scope.menuURL = 'templates/hzerm/menu.html';
 
-            console.log('HZERMController called..');
         }
     ]);
